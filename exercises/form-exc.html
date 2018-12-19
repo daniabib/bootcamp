@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h1>Register</h1>
+    <form>
+        <div class="names">
+            <label for="first-name">First name: <input type="text" id="first-name" placeholder="John" required></label>
+            <label for="last-name">Last name: <input type="text" id="last-name" placeholder="Smith" required></label><br>
+        </div>
+
+        <div class="gender">
+            <label for="male">Male</label><input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label><input type="radio" name="gender" id="female" value="female">
+            <label for="other">Other</label> <input type="radio" name="gender" id="other" value="other">
+        </div>
+
+        <div class="email">
+            <label for="email">Email: <input type="email" id="email" placeholder="Your email" required></label>
+            <label for="password">Password: <input type="password" id="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters"></label>
+        </div>
+
+        <div class="birthday">
+            <label for="birthday">Birthday :</label>
+
+            <select id="day">
+                <option value="day">Day</option>
+            </select>
+
+            <select id="month">
+                <option value="month">Month</option>
+            </select>
+
+            <select id="year">
+                <option value="year">Year</option>
+            </select>
+        </div>
+
+        <div class="agree">
+            <label for="agreement">I agree to the terms and conditions</label>
+            <input type="checkbox" id="agreement">
+        </div>
+
+        <input type="submit" name="" id="">
+
+    </form>
+</body>
+</html>
