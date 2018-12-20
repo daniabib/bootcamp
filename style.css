@@ -1,0 +1,33 @@
+body { font-family: 'Raleway', serif;}
+
+h1 {
+    margin-left: 15%;
+    font-weight: 800;
+}
+
+ul { 
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+li { margin-bottom: 10px; }
+
+td {
+    width: 10px;
+    height: 10px;
+    color: red;
+}
+
+a { text-decoration: none; }
+
+span { color: red; }
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    border-bottom: .1em solid red;
+}

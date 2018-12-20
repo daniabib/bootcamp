@@ -1,0 +1,9 @@
+/* date color: #3498db
+h2 color: #2c3e50 */
+
+body {
+    border: 20px solid #bdc3c7;
+    width: 66%;
+    margin: 15px auto; 
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
