@@ -1,8 +1,10 @@
-body { font-family: 'Raleway', serif;}
+body { 
+    font-family: 'Raleway', serif;
+}
 
 h1 {
-    margin-left: 15%;
     font-weight: 800;
+    font-size: 50px;
 }
 
 ul { 
@@ -30,4 +32,9 @@ a:visited {
 
 a:hover {
     border-bottom: .1em solid red;
+}
+
+.summary {
+    display: flex;
+    flex-wrap: wrap;
 }
